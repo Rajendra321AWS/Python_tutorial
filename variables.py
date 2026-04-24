@@ -1,8 +1,8 @@
-# Baisc python program with variables
-name = "raj"
-age = "22"
-height = 6
+""" Baisc python program with variables """
+NAME = "raj"
+AGE = "22"
+HEIGHT = 6
 
-print("Name", name)
-print("age", age)
-print("height", height)
+print("Name", NAME)
+print("Age", AGE)
+print("height", HEIGHT)
