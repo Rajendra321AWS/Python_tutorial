@@ -3,9 +3,9 @@
 def main():
     """Demonstrates integers and floats."""
 
-    NAME = "raj"
-    AGE = 22
-    HEIGHT = 6
+    name = "raj"
+    age = 22
+    height = 6
 # integers
     a = 10
     b = 3
@@ -17,9 +17,9 @@ def main():
     division = a / b
     sum_float = x + y
 
-    print("Name:", NAME)
-    print("Age:", AGE)
-    print("Height:", HEIGHT)
+    print("Name:", name)
+    print("Age:", age)
+    print("Height:", height)
     print("Integer sum:", sum_int)
     print("Division:", division)
     print("Float sum:", sum_float)
