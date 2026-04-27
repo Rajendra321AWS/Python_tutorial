@@ -21,7 +21,6 @@ sum_float = x+y
 print("Name", NAME)
 print("Age", AGE)
 print("height", HEIGHT)
-
 print("integer sum:", sum_int)
 print("Division (int -> float):", division)
 print("Float sum:", sum_float)
