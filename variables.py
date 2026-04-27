@@ -1,6 +1,8 @@
 """ Basic python program with variables """
 
 def main():
+    """Demonstrates integers and floats."""
+
     NAME = "raj"
     AGE = 22
     HEIGHT = 6
@@ -25,4 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
