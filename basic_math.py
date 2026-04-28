@@ -11,7 +11,7 @@ def main():
     subtraction = a - b
     multiplication = a * b
     division = a / b
-    
+
     print("Number A:", a)
     print("Number B:", b)
     print("Addition:", addition)
