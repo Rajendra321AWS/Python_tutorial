@@ -19,5 +19,5 @@ def main():
     print("Multiplication:", multiplication)
     print("Division:", division)
 
-if __name__ =="__main__": 
+if __name__ =="__main__":
     main()
