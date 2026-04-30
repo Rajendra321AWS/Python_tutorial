@@ -1,5 +1,7 @@
 """Writing program using if/else"""
+
 def main():
+    """Run basic if/else program for age and temperature"""
 
 # integer variable
     age = 25
