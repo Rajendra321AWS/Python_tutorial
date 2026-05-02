@@ -1,8 +1,9 @@
 """In this program we are using logical operators"""
 def main():
+    """Run a demo of logical operator (AND,OR,NOT)"""
     age = 20
     has_id = True
-    Is_student = False
+    is_student = False
 
 # using AND operator: bith conditions must be true
     if age >= 18 and has_id:
@@ -11,7 +12,7 @@ def main():
         print("entry denaid")
 
 # OR operator: at least one condition must be true
-    if age < 18 or Is_student:
+    if age < 18 or is_student:
         print("you are eligible for discount")
     else:
         print("no discount available")
