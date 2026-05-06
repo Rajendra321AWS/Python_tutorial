@@ -1,5 +1,7 @@
 """Writing sample program on while loop"""
+
 def count_numbers():
+    """Print 1 to 5 numbers using while loop"""
     count = 1
     while count <= 5:
         print("count is", count)
