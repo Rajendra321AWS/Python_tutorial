@@ -6,4 +6,3 @@ def square_numbers(numbers):
 num = [1, 2, 3, 4]
 result = square_numbers(num)
 print("squared numbers:", result)
-
