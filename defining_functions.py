@@ -6,15 +6,23 @@ def greet():
 
 # function with parameters
 def add_numbers(a,b):
+    """return sum of a and b """
     result = a + b
     return result
 
 # Function with default parameters
 def power(number, exponent=2):
+    """Return 'number' raised to 'exponent' (default is 2)."""
     return number ** exponent
 
 # Function that performs multi operations
 def calculator(x, y):
+    """
+    Return the sum, difference, and product of x and y.
+    
+    Returns:
+        tuple: (sum, difference, product)
+    """
     sum_result = x + y
     diff_result = x - y
     prod_result = x * y
