@@ -1,10 +1,10 @@
 """Function to find the sum of numbers"""
 
 def find_sum(numbers):
-    
+
     """return the sum of all numbers in list"""
 
-    TOTAL = 0
+    total = 0
     for num in numbers:
         total += num
 
