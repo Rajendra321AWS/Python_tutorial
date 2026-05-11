@@ -11,7 +11,7 @@ def find_sum(numbers):
 my_list = [10, 30, 50, 70]
 
 # calling the function
-result = find_sum(my_list)
+RESULT = find_sum(my_list)
 
 # Display results
-print("sum of list elements", result)
+print("sum of list elements", RESULT)
