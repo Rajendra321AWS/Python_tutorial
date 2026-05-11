@@ -2,6 +2,7 @@
 
 # Simple program to prints message
 def greet():
+    """Print a welcome message to the user."""
     print("Hello welcome to python functions")
 
 # function with parameters
@@ -33,10 +34,10 @@ def calculator(x, y):
 greet()
 
 # call add number function
-num1 = 10
-num2 = 5
-sum_value = add_numbers(num1, num2)
-print(f"the sum of {num1} and {num2} is {sum_value}")
+NUM1 = 10
+NUM2 = 5
+SUM_VALUE = add_numbers(NUM1, NUM2)
+print(f"the sum of {NUM1} and {NUM2} is {SUM_VALUE}")
 
 # call power function
 print(f"5 squared is {power(5)}")
