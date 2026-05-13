@@ -16,7 +16,6 @@ def add(a, b):
 def multiply(a, b):
     """ Function returning value"""
     return a * b
-    result = multiply(5, 4)
     print("multiplication", result)
 
 
@@ -25,4 +24,5 @@ def multiply(a, b):
 great()
 great_01("Raj")
 add(10, 20)
+result = multiply(5, 4)
 multiply(5, 4)
