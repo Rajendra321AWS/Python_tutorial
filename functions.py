@@ -4,9 +4,9 @@ def great():
     """Writing Basic fuction """
     print("Hello Word")
 
-def great_01(NAME):
+def great_01(name):
     """ Function with arguments"""
-    print("Hello", NAME)
+    print("Hello", name)
 
 def add(a, b):
     """Fuction with multi arguments"""
