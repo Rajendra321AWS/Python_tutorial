@@ -1,8 +1,8 @@
 """Writing a program using functions"""
 # Function 01
 def great():
-    """Writing Basic fuction """
-    print("Hello Word")
+    """Writing Basic function """
+    print("Hello World")
 
 def great_01(name):
     """ Function with arguments"""
@@ -18,10 +18,13 @@ def multiply(a, b):
     return a * b
 
 
+def main():
+    """Main function"""
+    great()
+    great_01("Raj")
+    add(10, 20)
+    multiplication_result = multiply(5, 4)
+    print("multiplication", multiplication_result)
 
-
-great()
-great_01("Raj")
-add(10, 20)
-multiplication_result = multiply(5, 4)
-print("multiplication", multiplication_result)
+if __name__ == "__main__":
+    main()
