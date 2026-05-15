@@ -2,7 +2,7 @@
 
 def greet():
     """ Printing hello message"""
-    message = "hello"
+    message = "hello World"
     print(message)
 
 greet()
