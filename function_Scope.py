@@ -1,7 +1,7 @@
 """Writing program on Function Scope"""
 
 def greet():
-    """ Printing hello message"""
+    """ Printing hello message."""
     message = "hello World"
     print(message)
 
