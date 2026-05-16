@@ -42,8 +42,8 @@ COUNT = 0
 
 def increment():
     """Modifying global variable."""
-    global count
-    count += 1
+    global COUNT
+    COUNT += 1
     print("Count value:", COUNT)
 
 # Function with default arguments
@@ -60,7 +60,7 @@ def main():
     # Calling function without arguments
 
     welcome()
-    
+
     print("_" * 45)
 
     # Function calling with single arguments
