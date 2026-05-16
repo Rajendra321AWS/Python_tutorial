@@ -36,16 +36,6 @@ def show_company():
     """Access global variable inside function."""
     print("Company name is", COMPANY)
 
-# Function modifying global variable
-
-COUNT = 0
-
-def increment():
-    """Modifying global variable."""
-    global COUNT
-    COUNT += 1
-    print("Count value:", COUNT)
-
 # Function with default arguments
 
 def show_country(name="India"):
@@ -88,13 +78,7 @@ def main():
 
     print("_" * 45)
 
-    # Global key word example
-
-    increment()
-
-    print("_" * 45)
-
-    # Default arguments
+   # Default arguments
 
     show_country()
     show_country("USA")
