@@ -38,13 +38,13 @@ def show_company():
 
 # Function modifying global variable
 
-count = 0
+COUNT = 0
 
 def increment():
     """Modifying global variable."""
     global count
     count += 1
-    print("Count value:", count)
+    print("Count value:", COUNT)
 
 # Function with default arguments
 
@@ -60,11 +60,11 @@ def main():
     # Calling function without arguments
 
     welcome()
-
-    print("_" * 45)
     
-    # Function calling with single arguments
+    print("_" * 45)
 
+    # Function calling with single arguments
+    
     greet("Raj")
 
     print("_" * 45)
