@@ -64,7 +64,7 @@ def main():
     print("_" * 45)
 
     # Function calling with single arguments
-    
+
     greet("Raj")
 
     print("_" * 45)
