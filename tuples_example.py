@@ -2,7 +2,7 @@
 
 def display(items):
     """Display items in tuple."""
-    print("Apple", "Banana", "Orange")
+    print("Tuple items are:", items)
 
 fruits = ("Apple", "Banana", "Orange")
 
