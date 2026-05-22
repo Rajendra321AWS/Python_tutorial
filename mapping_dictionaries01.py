@@ -18,7 +18,7 @@ def search_student(data, roll_no):
         print("Student found:", data[roll_no])
     else:
         print("Student not found.")
-        
+
 
 def remove_student(data, roll_no):
     """Remove student from dictionary."""
@@ -37,14 +37,14 @@ def main():
         103: "Madhu"
     }
     display_students(students)
-    
+
     add_student(students, 104, "Ravi")
     display_students(students)
-    
+
     search_student(students, 102)
-    
+
     remove_student(students, 103)
-    
+
     display_students(students)
 
 if __name__ == "__main__":
