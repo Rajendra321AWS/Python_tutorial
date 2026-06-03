@@ -8,7 +8,7 @@ def convert_case(text):
     print("Swap case: ", text.swapcase())
 
 
-def check_string(text):    
+def check_string(text):
     """Check string properties."""
     print("Is Alphabetic: ", text.isalpha())
     print("Is Numeric: ", text.isdigit())
