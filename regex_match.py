@@ -9,8 +9,8 @@ def check_password(password):
 
     if re.match(pattern, password):
         return "String password"
-    else:
-        return "Week password"
+    
+    return "Week password"
 
 # Imput from user
 def main():
