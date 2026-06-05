@@ -9,7 +9,6 @@ def check_password(password):
 
     if re.match(pattern, password):
         return "String password"
-    
     return "Week password"
 
 # Imput from user
