@@ -11,7 +11,7 @@ def check_password(password):
         return "String password"
     else:
         return "Week password"
-    
+
 # Imput from user
 def main():
     """Read a password and display the validation result"""
