@@ -10,7 +10,7 @@ def find_email(text):
 
     if match:
         return match.group()
-   
+
     return None
 
 
@@ -26,7 +26,6 @@ def main():
         print(f"Email found: {email}")
     else:
         print("No email found.")
-    
+
 if __name__== "__main__":
     main()
-    
