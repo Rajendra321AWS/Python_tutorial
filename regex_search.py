@@ -18,7 +18,7 @@ def find_email(text):
 def main():
     """Reun the email search example."""
 
-    sample_text = "Please contact us ar support@example.com for assistance"
+    sample_text = "Please contact us ar support@example.com for assistance."
 
     email = find_email(sample_text)
 
