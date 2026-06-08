@@ -15,6 +15,6 @@ def main():
     sentence = input("Enter a sentence: ")
     result = find_capital_words(sentence)
     print("Capital words found:", result)
-    
+
 if __name__ == "__main__":
     main()
