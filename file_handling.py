@@ -1,21 +1,21 @@
 """Simple file handling program to read a file"""
 
 def read_file(file_name):
-    """Read and display the comtent os the file."""
+    """Read and display the comtents of the file."""
     try:
-        with open(filename, "r", encoding="utf-8") as file:
-            print("\n File contents:")
-            print(file.rad()) 
+        with open(file_name, "r", encoding="utf-8") as file:
+            print("\nFile contents:")
+            print(file.read())
 
-    except fileNotFoundError:
+    except FileNotFoundError:
         print("Error: file not found.")
-        
+
 def main():
     """Main function."""
 
     file_name = input("Enter file name: ")
     read_file(file_name)
-        
-if __name__ == "__main___":
+
+if __name__ == "__main__":
     main()
-        
+
