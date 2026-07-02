@@ -2,7 +2,7 @@
 
 try:
     print(a)  # Resky code
-except:
+except NameError:
     print("Error")
 else:
     print("No error")
