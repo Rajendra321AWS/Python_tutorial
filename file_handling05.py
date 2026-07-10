@@ -31,7 +31,7 @@ def main():
         print("File not found. ")
 
     except PermissionError:
-        print("Permission denied")
+        print("Permission denied.")
 
     except OSError as error:
         print(f"File error: {error}")
