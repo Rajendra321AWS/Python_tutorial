@@ -6,13 +6,16 @@ from pathlib import Path
 from datetime import datetime
 import shutil
 
-SOURCE_FILE = Path(r"/e/Practice/Github/Python_tutorial/file_handling05.py")
-BACKUP_FOLDER = Path(r"/e/backups")
+SOURCE_FILE = Path(r"E:\Practice\Github\Python_tutorial\file_handling05.py")
+BACKUP_FOLDER = Path(r"E:\Practice\backups")
 
 def backup_if_modified(source_file: Path, backup_folder: Path) -> None:
     """
     Create a backup of the source file if it has changed.
     """
+    print(source_file)
+    print(source_file.exists())
+
     if not source_file.exists():
         print("Source file doesn't exist")
         return
